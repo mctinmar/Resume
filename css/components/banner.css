@@ -1,0 +1,68 @@
+.small-banner {
+    background-image: linear-gradient(to left bottom, #360033, #2e295c, #014a7b, #00698c, #0b8793);
+    width: 100vw;
+    height: 50vh;
+    background-size: cover !important;
+    background-position: center;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.image-banner {
+    position: absolute;
+    top: 170px;
+    right: 5px;
+    width: 70%;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border: white 5px solid;
+    z-index: 1;
+}
+
+
+.title-banner {
+    position: absolute;
+    top: 165px;
+    left: 60px;
+    font-size: 50px;
+    font-family: inherit;
+    line-height: 1;
+    margin: -15px 0 10px;
+    letter-spacing: 1px;
+}
+
+.paragraph-banner {
+    position: absolute;
+    top: 195px;
+    left: 60px;
+    line-height: 2;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.infos-banner {
+    position: absolute;
+    left: 60px;
+    top: 260px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.infos-banner-1 {
+    position: absolute;
+    left: 60px;
+    top: 280px;
+    font-size: 16px;
+    line-height: 2;
+    font-style: italic;
+}
+
+.infos-banner-2 {
+    position: absolute;
+    left: 60px;
+    top: 300px;
+    font-size: 16px;
+    line-height: 2;
+    font-style: italic;
+}
