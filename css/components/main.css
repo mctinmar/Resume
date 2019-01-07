@@ -5,3 +5,32 @@
     padding-right: 15px;
     padding-left: 15px;
 }
+
+
+.custom-border {
+  box-sizing: border-box;
+  border: 0.5px solid #cecece;
+  padding-top: 25px;
+}
+
+.custom-border-1 {
+  border-bottom: 0.5px solid #cecece;
+  border-right: 0.5px solid #cecece;
+  padding-top: 25px;
+}
+
+.paragraph-infos {
+  text-align: center;
+  padding-left: 20%;
+  color: #000;
+
+}
+
+.paragraph-infos:hover {
+  color: ##014a7b;
+}
+
+.paragraph-infos-1 {
+  text-align: center;
+}
+
