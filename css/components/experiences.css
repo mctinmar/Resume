@@ -1,0 +1,157 @@
+.section-exp {
+  background-color: #ecf1f7;
+  padding: 60px 60px;
+}
+
+.exp-title {
+  font-weight: 800;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+
+.exp-title-2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  padding-top: 10px;
+}
+
+.exp-info-paragraph {
+  font-size: 14px;
+}
+
+.exp-link{
+  color: #014a7b;
+}
+
+.exp-link:hover {
+  color: #b01633;
+}
+
+
+.inbox {
+  padding-left: 0px;
+  list-style: none;
+  width: 85%;
+}
+
+
+
+
+.message-1 {
+  display: flex;
+  align-items: center;
+  padding: 20px ;
+  box-sizing: border-box;
+  border: 1px solid rgba(220,224,244,0.4);
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 2px 4px rgba(0,0,0,0.23);
+}
+.message-1:hover {
+   box-shadow: 0 4px 7px rgba(0,0,0,0.25), 0 3px 5px rgba(0,0,0,0.22);
+}
+
+.message-body-1 {
+  padding-left: 40px;
+  color: rgba(0,0,0,0.6);
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+.message-status-1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-bottom: 33px;
+}
+
+
+
+
+
+.message-2 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(220,224,244,0.4);
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 2px 4px rgba(0,0,0,0.23);
+}
+.message-2:hover {
+  box-shadow: 0 4px 7px rgba(0,0,0,0.25), 0 3px 5px rgba(0,0,0,0.22);
+}
+
+.message-body-2 {
+  padding-left: 73px;
+  color: rgba(0,0,0,0.6);
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+.message-status-2 {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 33px;
+}
+
+
+
+.message-3 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid rgba(220,224,244,0.4);
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 2px 4px rgba(0,0,0,0.23);
+}
+.message-3:hover {
+   box-shadow: 0 4px 7px rgba(0,0,0,0.25), 0 3px 5px rgba(0,0,0,0.22);
+}
+
+.message-body-3 {
+  padding-left: 55px;
+  color: rgba(0,0,0,0.6);
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+.message-status-3 {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 33px;
+}
+
+
+
+.message-body {
+  padding-left: 40px;
+  color: rgba(0,0,0,0.6);
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+
+.message-body strong {
+  color: rgba(0,0,0,0.9);
+}
+
+.message-body p {
+  margin: 6px 0;
+}
+
+.message-status {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+

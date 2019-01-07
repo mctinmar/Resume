@@ -1,0 +1,37 @@
+.about-container {
+  display: flex;
+  background-color: white;
+}
+
+.about-left-container {
+  flex: 0 0 50%;
+}
+
+.about-title {
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 80px;
+  line-height: 2;
+}
+
+.about-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(0,0,0,0.6);
+}
+
+.about-right {
+  padding-top: 80px;
+}
+
+.about-link {
+  color: #014a7b;
+}
+
+.about-link:hover {
+  color: #b01633;
+}
+
+#about-me {
+padding-bottom: 40px;
+}
