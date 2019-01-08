@@ -1,0 +1,68 @@
+
+#education {
+  background: #f4f9ff !important;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.card-edu {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 20px 50px;
+  -webkit-box-shadow: 0px 30px 120px 0px #dde5ee;
+  box-shadow: 0px 30px 120px 0px #dde5ee;
+}
+
+.card-edu-2 {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 20px 50px;
+  -webkit-box-shadow: 0px 30px 120px 0px #dde5ee;
+  box-shadow: 0px 30px 120px 0px #dde5ee;
+  padding-bottom: 63px;
+}
+
+.edu-paragraph {
+  color: rgba(0,0,0,0.6);
+  font-size: 15px;
+}
+
+.logo-edu  {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.logo-edu img {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+
+.logo-edu-2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.logo-edu-2 img {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.edu-title-2 {
+  font-weight: 700;
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+.edu-title-3 {
+  font-weight: 700;
+  font-size: 18px;
+  font-style: italic;
+/*  padding-top: 1px;*/
+}
