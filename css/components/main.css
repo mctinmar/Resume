@@ -97,6 +97,7 @@
     font-weight: 400;
     font-size: 15px;
     color: rgba(0,0,0,0.6);
+    font-style: italic;
 }
 
 .custom-progress-bars .progress {
@@ -107,8 +108,12 @@
 }
 
 .custom-progress-bars .progress .progress-bar {
-    background-color: #1e1e1e;
+    background-color: #006489;
     overflow: visible !important;
     height: auto;
 }
 
+.list-inline-item-1 {
+    display: inline-block;
+    margin-right: 100px;
+}
