@@ -53,4 +53,62 @@
     box-shadow: 0 4px 7px rgba(0,0,0,0.25), 0 3px 5px rgba(0,0,0,0.22);
 }
 
+/*.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 5px;
+    width: 155px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}*/
+
+.progress {
+    border-radius: 25px;
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/*.progress-label {
+    font-weight: 400;
+    font-size: 14px;
+    float: left;
+     margin-right: 1em;
+}
+*/
+.custom-progress-bars .progress-label {
+    float: left;
+    width: 30%;
+    clear: both;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+}
+
+.custom-progress-bars .progress {
+    float: left;
+    width: 70%;
+    height: 3px;
+    margin-top: 20px;
+}
+
+.custom-progress-bars .progress .progress-bar {
+    background-color: #1e1e1e;
+    overflow: visible !important;
+    height: auto;
+}
 

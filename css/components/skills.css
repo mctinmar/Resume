@@ -13,7 +13,7 @@
 }
 
 #skills {
-   padding-bottom: 85px;
+  padding-bottom: 85px;
   padding-top: 20px;
 }
 
@@ -46,4 +46,8 @@
 
 .skills-left {
   padding-left: 45px;
+}
+
+.skills-right {
+  padding-left: 25px;
 }
