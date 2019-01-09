@@ -1,7 +1,9 @@
-.section-exp {
+#experiences {
   background-color: #ecf1f7;
-  padding: 60px 60px;
+  padding-bottom: 85px;
+  padding-top: 40px;
 }
+
 
 .exp-title {
   font-weight: 800;
@@ -64,14 +66,12 @@
   font-size: 14px;
   font-weight: bold;
   padding-bottom: 120px;
-  /*margin-left: 10px;*/
 }
 
 .exp-date-2 {
   font-size: 14px;
   font-weight: bold;
-  padding-bottom: 100px;
-  /*margin-left: 10px;*/
+  padding-bottom: 100px
 }
 
 .exp-paragraph {
@@ -79,4 +79,6 @@
   font-size: 14px;
 }
 
-
+.exp-logo {
+  margin-top: 30px;
+}
