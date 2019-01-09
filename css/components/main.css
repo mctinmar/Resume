@@ -1,9 +1,15 @@
-.col-lg-4 {
+/*.col-lg-4 {
     position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+}*/
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 15px;
 }
 
 
@@ -33,4 +39,18 @@
 .paragraph-infos-1 {
   text-align: center;
 }
+
+
+.button-custom a {
+  color: rgba(0,0,0,0.6);
+  font-size: 16px;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 15px
+    box-shadow: 0 4px 7px rgba(0,0,0,0.25), 0 3px 5px rgba(0,0,0,0.22);
+}
+
 

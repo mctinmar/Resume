@@ -62,6 +62,7 @@
 
   <section id="experiences" class="section-exp">
       <div class="container">
+         <div class="row">
         <h1 class="exp-title">Experiences</h1>
                <div class="exp-card mx-auto">
                   <div class="col-md-3 exp-logo">
@@ -109,7 +110,7 @@
                  </div>
                    <div class="col-md-7 exp-info">
                       <h2 class="exp-title-2">Fans Finger</h2>
-                        <p><a href="https://fansfinger.com//" class="exp-link">Fans Finger</a> is an ecommerce shop inspired by the famous americain sport item, <strong>the #1 Foam Hand.</strong> Companies, clubs, associations, induviduals, can customize the hand with their own color, logo and text ☝</p>
+                        <p><a href="https://fansfinger.com//" class="exp-link">Fans Finger</a> is an ecommerce shop inspired by the famous americain sport item, <strong>the #1 Foam Hand.</strong> Companies, clubs, associations, induviduals, can customize our hands with their own color, logo and text ☝</p>
                          <ul class="list-inline">
                             <li class="list-inline-item">
                                <i class="fas fa-plus-circle" style="color: #3ab370"></i>
@@ -144,15 +145,17 @@
                </div>
             </div>
             <br>
-              <div class="text-center">
-                   <a href="https://www.linkedin.com/in/martin-provost-2b645a5a/" class="btn btn-outline-secondary" role="button">All my experiences</a>
+              <div class="button-custom mx-auto">
+                   <a href="https://www.linkedin.com/in/martin-provost-2b645a5a/" class="btn btn-outline-secondary btn-lg" role="button">All my experiences</a>
               </div>
+          </div>
         </div>
+         </div>
    </section>
 
    <section id="skills">
       <div class="container">
-          <h1 class="skills-title">Skills & Language</h1>
+          <h1 class="skills-title">Skills</h1>
             <div class="card-body mx-auto">
              <div class="row justify-content-center" id="skills-2">
                <div class="col-lg-4 col-sm-6 mb-4">
@@ -183,7 +186,7 @@
                  </div>
               </div>
             <div class="col-lg-4 col-sm-6 mb-4">
-              <h6 class="mt-1 mb-3 skills-title-2">DevOps</h6>
+              <h2 class="mt-1 mb-3 skills-title-2">DevOps</h2>
               <div class="row">
                 <div class="col-6 skills-left">
                   <div class="skills-elements">
@@ -207,7 +210,7 @@
               </div>
             </div>
              <div class="col-lg-4 col-sm-6 mb-4">
-              <h6 class="mt-1 mb-3 skills-title-2">Design</h6>
+              <h2 class="mt-1 mb-3 skills-title-2">Design</h2>
               <div class="row">
                 <div class="col-6 skills-left">
                   <div class="skills-elements">
@@ -246,17 +249,68 @@
                   <p class="edu-paragraph"> 9-week intensive coding Bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, Implemented and Shipped to production a clone of AirBnB and a Rails prototype of http://www.eazyride.co/</p>
              </div>
             </div>
-
           <div class="col-xs-12 col-md-6">
             <div class="card-edu-2">
              <div class="logo-edu-2">
                   <img src="images/edhec.png">
                   <h2 class="edu-title-3"> EDHEC Business School</h2>
                </div>
-              <p class="edu-paragraph">Master Degree in Entrepreneurship (2008-2012)</p>
-              <p class="edu-paragraph">EDHEC Business School is a private French graduate business school, a Grandes écoles, specialising in business and management.</p>
+                  <p class="edu-paragraph">Master Degree in Entrepreneurship (2008-2012)</p>
+                  <p class="edu-paragraph">EDHEC Business School is a private French graduate business  school, a 'Grandes Ecoles', specialising in business and management.</p>
             </div>
            </div>
+         </div>
+      </div>
+    </section>
+
+  <section id="portfolio">
+     <div class="container">
+       <h1 class="skills-title">Portfolio</h1>
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+               <div class="card-home">
+                  <div class="card-home-photo card-link" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/eazyride-capture.png');">
+                  </div>
+                  <div class="card-home-footer">
+                      <h2 class="portfolio-title-2">Eazyride</h2>
+                  <div class="card-footer-controls">
+                      <p><font color="#74b49b">la place</font></p>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             <div class="col-xs-12 col-sm-4">
+               <div class="card-home">
+                  <div class="card-home-photo card-link" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/yumi-capture.png');">
+                  </div>
+                  <div class="card-home-footer">
+                      <p>hello</p>
+                  <div class="card-footer-controls">
+                     <div class="text-center"><strong><font color="#74b49b"><%= journey.price.to_i %> € </font></strong>
+                      <p><font color="#74b49b">la place</font></p>
+                  </div>
+               </div>
+              </div>
+             </div>
+           </div>
+           <div class="col-xs-12 col-sm-4">
+               <div class="card-home">
+                  <div class="card-home-photo card-link" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/yumi-capture-2.png');">
+                  </div>
+                  <div class="card-home-footer">
+                      <p>hello</p>
+                  <div class="card-footer-controls">
+                     <div class="text-center"><strong><font color="#74b49b"><%= journey.price.to_i %> € </font></strong>
+                      <p><font color="#74b49b">la place</font></p>
+                  </div>
+               </div>
+              </div>
+             </div>
+           </div>
+</div>
           </div>
+        </div>
+    </section>
 
  </body>
