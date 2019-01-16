@@ -82,3 +82,35 @@
 .exp-logo {
   margin-top: 30px;
 }
+
+.list-inline-1 {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+#more {
+  display: none;
+}
+
+#myBtn {
+   border-color: rgba(0,0,0,0.4);
+   color: rgba(0,0,0,0.6);
+   border-radius: 10px;
+   margin-bottom: 15px;
+   font-size: 14px;
+   padding: 3px 10px 3px 10px;
+}
+
+ul#imageGallery img {
+    width: 310px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24);
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+ul#imageGallery {
+    padding: 0;
+    align-items: center;
+}

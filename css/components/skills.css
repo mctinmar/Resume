@@ -44,6 +44,13 @@
   width: 90%;
 }
 
+.card-body:hover {
+   -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+   -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
 .skills-left {
   padding-left: 45px;
 }

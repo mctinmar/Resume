@@ -1,70 +1,83 @@
 #portfolio {
   padding-top: 30px;
-  padding-bottom: 250px;
+  padding-bottom: 20px;
+  /*background-color: #ecf1f7;*/
+}
+
+#postsCarousel {
+ /* background-color: #ecf1f7;*/
+  padding-bottom: 50px;
 }
 
 .portfolio-title-2 {
   font-weight: 700;
   font-size: 16px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
-.card-home {
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 2px 4px rgba(0,0,0,0.23);
- }
-
-
-.card-home:hover {
-  box-shadow: 0 4px 7px rgba(0,0,0,0.25), 0 3px 5px rgba(0,0,0,0.22);
-}
-
-
-.card-home-photo {
-   height: 180px;
-   background-size: cover !important;
-   background-position: center;
-   color: white;
-   position: relative;
-   opacity: 1;
-   transition: .5s ease;
-   border-radius: 5px;
-}
-
-.card-home-title {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-   h2 {
-   font-size: 22px;
- }
-}
-
-.card-home-footer {
-  display: flex;
-  justify-content: space-between;
-  background: white;
-  padding: 10px;
-  height: 110px;
-  border-radius: 5px;
-}
-
-.card-home-footer p {
-  color: rgba(0,0,0,0.6);
-  font-size: 15px;
-}
-
-.card-footer-controls p {
+.portfolio-paragraph {
   font-size: 14px;
- }
-
-.card-link {
-  /*position: absolute;*/
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 2;
+  color: rgba(0,0,0,0.6);
+  margin-left: 5px;
 }
 
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 2px 4px rgba(0,0,0,0.23);
+}
+
+.content img {
+  width: 200px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+.carousel-inner {
+     position: relative;
+    width: 100%;
+}
+
+.text-md-right {
+    position: absolute;
+    top: -50px;
+    left: 1160px;
+}
