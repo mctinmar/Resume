@@ -78,19 +78,52 @@ ul {
 }
 
 
-
-
-
-
-
-
-/*.progress-label {
-    font-weight: 400;
-    font-size: 14px;
+.custom-progress-bars .progress-2 {
     float: left;
-     margin-right: 1em;
+    width: 70%;
+    height: 16px;
+    margin-top: 16px;
 }
-*/
+
+.progress-2 {
+    border-radius: 25px;
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+}
+
+.custom-progress-bars .progress-label-2 {
+    float: left;
+    width: 30%;
+    clear: both;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+    font-style: italic;
+    padding-left: 11px;
+}
+
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+}
+
+
 .custom-progress-bars .progress-label {
     float: left;
     width: 30%;
@@ -113,4 +146,16 @@ ul {
     background-color: #006489;
     overflow: visible !important;
     height: auto;
+}
+
+.custom-progress-bars .progress-2 .progress-bar {
+    background-color: #006489;
+    overflow: visible !important;
+    height: auto;
+}
+
+.progress-bar.active, .progress.active .progress-bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
 }

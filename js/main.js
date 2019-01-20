@@ -20,14 +20,15 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "View more";
+    btnText.innerHTML = "view more";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "View less";
+    btnText.innerHTML = "view less";
     moreText.style.display = "inline";
   }
 }
+
 
 
 

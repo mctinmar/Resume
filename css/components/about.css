@@ -7,6 +7,14 @@
   flex: 0 0 50%;
 }
 
+.profile-right {
+  padding-left: 25px;
+}
+
+.profile-left {
+  padding-left: 25px;
+}
+
 .about-title {
   font-weight: 800;
   font-size: 30px;
@@ -20,6 +28,15 @@
   /*padding-top: 15px;*/
 }
 
+.about-title-3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.about-title-4 {
+  font-weight: 600;
+  font-size: 16px;
+}
 
 .about-paragraph {
   font-weight: 400;
@@ -28,7 +45,7 @@
 }
 
 .about-right {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .about-link {
@@ -43,20 +60,32 @@
 padding-bottom: 40px;
 }
 
+#myBtn {
+   border: 0px solid transparent;
+   color: rgba(0,0,0,0.6);
+   border-radius: 10px;
+   margin-bottom: 15px;
+   font-size: 14px;
+   padding: 10px 10px 3px 10px;
+}
+
 .card-body-about {
   -webkit-box-shadow: 0px 30px 120px 0px #dde5ee;
   box-shadow: 0px 30px 120px 0px #dde5ee;
   margin-top: 60px;
-  margin-left: 20px;
-  padding: 1.25rem;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 .flags {
-  font-weight: 400;
-  font-size: 14px;
-  color: rgba(0,0,0,0.6);
-  margin-left: 53px;
-  margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    margin-left: 20px;
+    margin-top: 15px;
+    font-style: italic;
 }
 
 

@@ -1,10 +1,10 @@
-.small-banner {
+#banner {
     background-image: linear-gradient(to left bottom, #360033, #2e295c, #014a7b, #00698c, #0b8793);
     width: 100vw;
-    height: 52vh;
+    height: 55vh;
     background-size: cover !important;
     background-position: center;
-    color: white;
+    color: #fff;
     position: relative;
     text-align: center;
 }
@@ -13,33 +13,39 @@
     position: absolute;
     top: 170px;
     right: -2px;
-    width: 80%;
-    /* height: 100%; */
-    /* border-radius: 50%; */
+    width: 60%;
+   /*height: 100%;*/
+     border-radius: 50%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
     border: white 5px solid;
     z-index: 1;
 }
 
+.left-banner-content {
+  position: relative;
+}
 
-.title-banner {
-    position: absolute;
-    top: 175px;
-    left: 70px;
-    font-size: 50px;
-    font-family: inherit;
-    line-height: 1;
-    margin: -15px 0 10px;
-    letter-spacing: 1px;
+.right-banner-content {
+    position: relative;
+    display: flex;
+    top: 215px;
+}
+
+.banner-title {
+  position: relative;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 1;
+  right: 30px;
 }
 
 .paragraph-banner {
-    position: absolute;
-    top: 205px;
-    left: 70px;
-    line-height: 2;
-    font-size: 22px;
-    font-weight: 300;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    right: 30px;
+    line-height: 1;
 }
 
 .infos-banner {
@@ -94,3 +100,19 @@
 .paragraph-infos-1 {
   text-align: center;
 }
+
+.avatar-large {
+    width: 95%;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    border: white 5px solid;
+    position: relative;
+    top: 200px;
+    z-index: 1;
+}
+
+#coucou {
+  display: flex;
+}
+
+
