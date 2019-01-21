@@ -45,7 +45,7 @@
 }
 
 .about-right {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .about-link {
@@ -81,10 +81,10 @@ padding-bottom: 40px;
 
 .flags {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(0,0,0,0.6);
-    margin-left: 20px;
-    margin-top: 15px;
+    margin-left: 40px;
+    margin-top: 5px;
     font-style: italic;
 }
 

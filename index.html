@@ -10,30 +10,46 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="js/snow.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+
+  <script type="text/javascript">
+  $(function () {
+
+    var filterList = {
+
+      init: function () {
+
+        // MixItUp plugin
+        // http://mixitup.io
+        $('#portfoliolist').mixItUp({
+          selectors: {
+            target: '.portfolio',
+            filter: '.filter'
+          },
+          load: {
+            filter: '.app'
+          }
+        });
+
+      }
+
+    };
+
+    // Run the show!
+    filterList.init();
+
+
+  });
+  </script>
 </head>
 <body>
-
-
-
-<!--
-  <section id="banner">
-    <div class="small-banner">
-      <div class="container">
-          <div class="row">
-            <div class="col-md-4 left-banner-content">
-              <img src="images/photo-pp.jpg" class="image-banner">
-            </div>
-            <div class="col-md-8 right-banner-content">
-              <h1 class="title-banner">Martin Provost</h1>
-                <p class="paragraph-banner">Looking for a junior PO/PM position</p>
-                <p class="infos-banner"> Paris, France</p>
-                <p class="infos-banner-1"> +33 625056557</p>
-                <p class="infos-banner-2"> martin@fansfinger.com</p>
-            </div>
-           </div>
-         </div>
-       </div>
-  </section> -->
 
 
  <section id="banner">
@@ -66,17 +82,6 @@
            <h1 class="about-title">About Me</h1>
              <p class="about-paragraph">Since university I'm deeply interested by creativity and technology. Over the last 6 years, I launched few business (start-up and e-commerce projects) and developped a strong entrepreneurial mindset. I've just finished <a href="https://www.lewagon.com/" class="about-link">@Le Wagon</a> coding bootcamp (Paris, Batch #200 - dec 2018) to add technicals skills to my profile ⚡️</p>
              <p class="about-paragraph">I'm passionate about tech, sport, food, music, learning new knowledges and building beautiful things 🚀</p>
-              <div class="list-inline flags">
-                <li class="list-inline-item-1">
-                  <img src="images/france.png" /> Native
-                </li>
-                <li class="list-inline-item-1">
-                  <img src="images/united-kingdom.png" /> Advanced
-                </li>
-                <li class="list-inline-item">
-                  <img src="images/spain.png" /> intermediate
-                </li>
-              </div>
         </div>
 
         <div class="col-md-6 about-right mx-auto">
@@ -159,16 +164,22 @@
                                     </div>
                                   </div>
                                </span>
-
-
-
-                                    <button onclick="myFunction()" class="hvr-icon-down" id="myBtn" style="color: #006489; font-weight: 400;">view more <i class="far fa-arrow-alt-circle-down hvr-icon"></i></button>
-
-                       </div>
+                                <button onclick="myFunction()" class="hvr-icon-down" id="myBtn" style="color: #006489; font-weight: 400;">view more <i class="far fa-arrow-alt-circle-down hvr-icon"></i></button>
+                      </div>
                     </div>
-
                   </div>
                  </div>
+                    <div class="list-inline flags">
+                        <li class="list-inline-item-1">
+                            <img src="images/france.png" /> Native
+                        </li>
+                         <li class="list-inline-item-1">
+                            <img src="images/united-kingdom.png" /> Advanced
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="images/spain.png" /> Intermediate
+                        </li>
+                    </div>
                 </div>
             </div>
          </div>
@@ -219,7 +230,7 @@
                                 <i class="fas fa-plus-circle" style="color: #3ab370"></i>
                             </li>
                             <li class="list-inline-item">
-                                <p class="exp-paragraph"><i>Shopify, Social Media Ads, Web design, Chatbot, Customer service</i></p>
+                                <p class="exp-paragraph"><i>Shopify, Instagram Influencer Campaign, Webdesign, Chatbot, Customer service</i></p>
                            </li>
                         </ul>
                     </div>
@@ -398,148 +409,136 @@
 
 
  <section id="portfolio">
-  <div class="container p-t-3">
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="skills-title">Portfolio</h1>
+        <div class="container">
+          <h1 class="skills-title">Portfolio</h1>
+
+    <ul id="filters" class="clearfix">
+      <li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All</span></li>
+      <li><span class="filter" data-filter=".app">Eazyride</span></li>
+      <li><span class="filter" data-filter=".card">Yumi</span></li>
+      <li><span class="filter" data-filter=".icon">Fans Finger</span></li>
+      <li><span class="filter" data-filter=".logo">Kollab</span></li>
+      <li><span class="filter" data-filter=".web">We Play Sport</span></li>
+    </ul>
+
+    <div id="portfoliolist">
+
+
+      <div class="portfolio app" data-cat="app">
+        <div class="portfolio-wrapper">
+          <iframe width="100%" height="160" src="https://www.youtube.com/embed/ICliaJ8Krpg?start=1601" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen <img src="images/eazyride-capture-2.png"></iframe>
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Demoday Le Wagon</a>
+              <span class="text-category">Pitch of our project, Eazyride</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
         </div>
+      </div>
+
+      <div class="portfolio web" data-cat="web">
+        <div class="portfolio-wrapper">
+           <iframe width="100%" height="160" src="https://www.youtube.com/embed/KDYA_Dco_xo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen <img src="images/eazyride-capture-2.png"></iframe>
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">We Play Sport</a>
+              <span class="text-category">Video of a project raise on the platform</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio app" data-cat="app">
+        <div class="portfolio-wrapper">
+          <img src="images/eazyride-capture-2.png" alt=""  width="100%" height="150px"/>
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Eazyride</a>
+              <span class="text-category">Homepage w/ video background banner</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio app" data-cat="app">
+        <div class="portfolio-wrapper">
+          <img src="images/eazyride-capture-5.png" alt=""  width="100%" height="150px"/>
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Eazyride</a>
+              <span class="text-category">Form using RoR "simple_form for" and JS</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio card" data-cat="card">
+        <div class="portfolio-wrapper">
+          <img src="images/yumi-capture-2.png" alt="" width="100%" height="150px"/>
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Yumi</a>
+              <span class="text-category">Product page with BOGO offers</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio icon" data-cat="icon">
+        <div class="portfolio-wrapper">
+          <img src="images/fansfinger-capture.png" alt="" width="100%" height="150px"/>
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Fans Finger</a>
+              <span class="text-category">Custom product page w/ custom fields</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio logo" data-cat="logo">
+        <div class="portfolio-wrapper">
+           <img src="images/kollab-capture.png" alt="" width="100%" height="150px"/>
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">Kollab</a>
+              <span class="text-category">Homepage w/ transparent to solid navbar</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio web" data-cat="web">
+        <div class="portfolio-wrapper">
+          <img src="images/we-play-sport-capture.jpg" alt="" width="100%" height="150px"/>
+          <div class="label">
+            <div class="label-text">
+              <a class="text-title">We Play Sport</a>
+              <span class="text-category">Homepage banner</span>
+            </div>
+            <div class="label-bg"></div>
+          </div>
+        </div>
+      </div>
+
     </div>
+
   </div>
 </section>
 
 
- <section class="carousel slide" data-ride="carousel" id="postsCarousel">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 text-md-right lead">
-                <a class="btn btn-outline-secondary-custom prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
-                <a class="btn btn-outline-secondary-custom next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
-            </div>
-        </div>
-    </div>
-    <div class="container p-t-0 m-t-2 carousel-inner">
-        <div class="row row-equal carousel-item active m-t-0">
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/ICliaJ8Krpg?start=1601" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen <img src="images/eazyride-capture-2.png"></iframe>
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Eazyride</h3>
-                          <p class="portfolio-paragraph">Le Wagon demo day with pitch of Eazyride</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="images/eazyride-capture-2.png" alt="Carousel 2" style="width:100%; height:200px">
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Eazyride</h3>
-                          <p class="portfolio-paragraph">Homepage with video banner background</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="images/eazyride-capture-5.png" alt="Carousel 3" style="width:100%; height:200px">
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Eazyride</h3>
-                        <p class="portfolio-paragraph">Form using Ruby on Rails 'simple-form for' and JS</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row row-equal carousel-item m-t-0">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="images/yumi-capture.png" alt="Carousel 4" style="width:100%; height:200px">
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Yumi</h3>
-                        <p class="portfolio-paragraph">Homepage with cards collection</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="images/yumi-capture-2.png" alt="Carousel 5" style="width:100%; height:200px">
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Yumi</h3>
-                        <p class="portfolio-paragraph">Product page with BOGO offer and trust badges</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 fadeIn wow">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="images/fansfinger-capture.png" alt="Carousel 6" style="width:100%; height:200px">
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Fans Finger</h3>
-                         <p class="portfolio-paragraph">Custom product page with custom fields</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-           <div class="row row-equal carousel-item m-t-0">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="images/fansfinger-capture-2.png" alt="Carousel 7" style="width:100%; height:200px">
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Fans Finger</h3>
-                        <p class="portfolio-paragraph">Product page with accordion product description</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="images/kollab-capture.png" alt="Carousel 8" style="width:100%; height:200px">
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Kollab</h3>
-                        <p class="portfolio-paragraph">Header with tranparent to solid navbar</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 fadeIn wow">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 9" style="width:100%; height:200px">
-                    </div>
-                    <div class="card-block p-t-2">
-                        <h3 class="portfolio-title-2">Kollab</h3>
-                        <p class="portfolio-paragraph">Product page with BOGO offer and trust badges</p>
-                    </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-    </div>
-</section>
 
 
 
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-           <script src="js/main.js"></script>
-           <script src="js/snow.js"></script>
 
-     </body>
+ </body>
+</html>
 
 

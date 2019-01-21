@@ -45,6 +45,7 @@
     font-size: 20px;
     font-weight: 500;
     right: 30px;
+    bottom: 5px;
     line-height: 1;
 }
 
@@ -102,13 +103,13 @@
 }
 
 .avatar-large {
-    width: 95%;
-    border-radius: 50%;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-    border: white 5px solid;
-    position: relative;
-    top: 200px;
-    z-index: 1;
+  width: 95%;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  border: white 5px solid;
+  position: relative;
+  top: 190px;
+  z-index: 1;
 }
 
 #coucou {
