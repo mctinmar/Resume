@@ -1,1 +1,152 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  transition: .5S;
+}
 
+nav.white {
+  background: white;
+  height: 70px;
+  z-index: 10;
+  border-bottom: 1px solid #cecece;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+nav .logo {
+  float: left;
+  padding-left: 40px
+}
+
+nav .logo .fab {
+  transition: .5S;
+
+
+}
+
+nav.white .logo .fab {
+  transition: .5S;
+  padding-left: 40px
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+ }
+
+nav ul li a {
+  line-height: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+nav.white ul li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  padding: 5px 10px;
+  transition: .5S;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #000;
+  background: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+nav.white ul li a.active,
+nav.white ul li a:hover {
+  color: #fff;
+  background: #000;
+  opacity: 0.8;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+.responsive-bar {
+  display: none;
+}
+
+@media (max-width: 768px)
+
+{
+  .responsive-bar {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: #000;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+  }
+    .responsive-bar .logo .fab {
+       float: left;
+       height: 50px;
+  }
+
+    .responsive-bar .menu h4 {
+      float: right;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      line-height: 50px;
+      cursor:  pointer;
+      text-transform: uppercase;
+  }
+
+      nav.white {
+         background: white;
+         height: 60px;
+         padding: 0;
+  }
+
+      nav.logo {
+        display: none;
+  }
+
+      nav .ul {
+        position: absolute;
+        width: 10%;
+        top: 60px;
+        left: 0;
+        background: white;
+        float: none;
+        display: block;
+  }
+
+      nav ul li {
+        width: 100%;
+  }
+
+      nav ul li  a {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        line-height: 30px !important;
+        color: #000;
+  }
+}

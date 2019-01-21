@@ -89,7 +89,7 @@
   .portfolio-wrapper {
     overflow:hidden;
     position: relative !important;
-    background: #666;
+    background: #000;
     cursor:pointer;
   }
 
