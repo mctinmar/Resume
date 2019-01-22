@@ -54,6 +54,7 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   transition: .5s;
+  z-index: 5;
 }
 
 nav.white ul li a {
