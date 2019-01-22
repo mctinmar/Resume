@@ -1,4 +1,4 @@
-nav {
+  nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -21,15 +21,17 @@ nav .logo {
   padding-left: 40px
 }
 
-nav .logo .fab {
+nav .logo img {
   transition: .5S;
-
+  height: 40px;
+  padding-top: 10px;
 
 }
 
-nav.white .logo .fab {
+nav.white .logo img {
   transition: .5S;
-  padding-left: 40px
+  height: 30px;
+  padding-top: 10px;
 }
 
 nav ul {
@@ -87,9 +89,8 @@ nav.white ul li a:hover {
   display: none;
 }
 
-@media (max-width: 768px)
+@media (max-width: 768px){
 
-{
   .responsive-bar {
     display: block;
     width: 100%;
@@ -99,54 +100,61 @@ nav.white ul li a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 5px 10px;
+    padding: 5px 20px;
     box-sizing: border-box;
-  }
-    .responsive-bar .logo .fab {
-       float: left;
-       height: 50px;
+    z-index: 1;
   }
 
-    .responsive-bar .menu h4 {
-      float: right;
-      color: #fff;
-      margin: 0;
-      padding: 0;
-      line-height: 50px;
-      cursor:  pointer;
-      text-transform: uppercase;
+  .responsive-bar .logo img {
+     float: left;
+     height: 40px;
   }
 
-      nav.white {
-         background: white;
-         height: 60px;
-         padding: 0;
+  .responsive-bar .menu h4 {
+    float: right;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
   }
 
-      nav.logo {
-        display: none;
+  nav,
+  nav.white {
+    background: #000;
+    height: 70px;
+    padding: 0;
   }
 
-      nav .ul {
-        position: absolute;
-        width: 10%;
-        top: 60px;
-        left: 0;
-        background: white;
-        float: none;
-        display: block;
+  nav.logo {
+    display: none;
   }
 
-      nav ul li {
-        width: 100%;
+  nav ul {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    background: #000;
+    float: none;
+    display: none;
   }
 
-      nav ul li  a {
-        display: block;
-        padding: 0;
-        width: 100%;
-        text-align: center;
-        line-height: 30px !important;
-        color: #000;
+  nav ul.active {
+    display: block;
   }
+
+  nav ul li {
+    width: 100%;
+
+  }
+  nav ul li a {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+  }
+
 }

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Martin Provost | Web Dev</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta name="description" content="Martin Provost | Full Stack Web Developer"/>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -15,26 +15,19 @@
 <body>
 
 <div class="responsive-bar">
-
-  <div class="logo">
-      <img src="images/github.svg">
-      <img src="images/github.svg">
-  </div>
+   <div class="logo">
+         <!-- <img src="images/linkedin-button.png"> -->
+    </div>
     <div class="menu">
        <h4>Menu</h4>
-     </div>
+   </div>
 </div>
+
   <nav>
     <div class="logo">
-      <a class="btn btn-link" target="_blank" href="https://www.linkedin.com/in/yoann-saunier-536368151">
-          <i class="fab fa-linkedin fa-2x" style="color: #fff;"></i>
-      </a>
-       <a class="btn btn-link" target="_blank" href="https://github.com/ynnsnr">
-            <i class="fab fa-github fa-2x" style="color: #fff;"></i>
-        </a>
-
+         <!-- <img src="images/linkedin-button.png"> -->
     </div>
-    <ul>
+    <ul >
         <li><a href="#section-1">Experiences</a></li>
         <li><a href="#section-2">Skills</a></li>
         <li><a href="#section-3">Education</a></li>
@@ -565,6 +558,7 @@
 
       });
   </script>
+
       <script type="text/javascript">
         $(window).on('scroll', function(){
            if($(window).scrollTop()){
@@ -575,7 +569,11 @@
             $('nav').removeClass('white');
            }
         })
-
+        $(document).ready(function(){
+            $(".menu h4").click(function(){
+              $("nav ul").toggleClass("active")
+            })
+        })
       </script>
 
  </body>
