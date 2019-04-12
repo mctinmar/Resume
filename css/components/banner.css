@@ -43,6 +43,59 @@
   z-index: 2;
 }
 
+.banner-title-1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: inherit;
+  color: white;
+}
+
+.banner-title-2 {
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+
+.btn-outline-custom1 {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.2);
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn-outline-custom1:hover {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+}
+
+.btn-outline-custom2 {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.2);
+    margin-top: 15px;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn-outline-custom2:hover {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+}
+
 .paragraph-banner {
     position: relative;
     font-size: 22px;
@@ -106,13 +159,9 @@
 }
 
 .avatar-large {
-  width: 90%;
-  border-radius: 50%;
+  width: 70%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   border: white 5px solid;
-  position: relative;
-  top: 195px;
-  z-index: 1;
 }
 
 #coucou {

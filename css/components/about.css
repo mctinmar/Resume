@@ -1,6 +1,17 @@
+#about-me {
+padding-bottom: 50px;
+}
+
 .about-container {
   display: flex;
-  background-color: white;
+  background-color: #dde5ee;
+}
+
+.avatar-large {
+  width: 85%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  border: white 5px solid;
+  margin-bottom: 15px;
 }
 
 .about-left-container {
@@ -18,7 +29,7 @@
 .about-title {
   font-weight: 800;
   font-size: 30px;
-  padding-top: 80px;
+  padding-top: 20px;
   line-height: 2;
 }
 
@@ -39,8 +50,14 @@
 }
 
 .about-paragraph {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
+  color: rgba(0,0,0,0.6);
+}
+
+.about-paragraph2 {
+  font-weight: 400;
+  font-size: 14px;
   color: rgba(0,0,0,0.6);
 }
 
@@ -56,9 +73,7 @@
   color: #b01633;
 }
 
-#about-me {
-padding-bottom: 40px;
-}
+
 
 #myBtn {
    border: 0px solid transparent;
@@ -83,7 +98,6 @@ padding-bottom: 40px;
     font-weight: 400;
     font-size: 15px;
     color: rgba(0,0,0,0.6);
-    margin-left: 40px;
     margin-top: 10px;
     font-style: italic;
 }
@@ -96,5 +110,5 @@ padding-bottom: 40px;
 
 .list-inline-item-1 {
     display: inline-block;
-    margin-right: 100px;
+    margin-right: 50px;
 }
