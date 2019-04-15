@@ -161,6 +161,23 @@ ul {
 }
 
 
+.footer {
+  background-color: #383838;
+  color: #FAFAFA;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    opacity: .7;
+}
+
+.footer i {
+    color: #FF0000;
+}
 
 /*.form-control {
     display: block;
