@@ -69,7 +69,6 @@ nav ul li a.active,
 nav ul li a:hover {
   color: #000;
   background: #fff;
-  opacity: 0.8;
   text-decoration: none;
   border-radius: 5px;
 

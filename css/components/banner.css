@@ -57,6 +57,7 @@
 }
 
 .banner {
+  background: linear-gradient(to left bottom, #360033, #2e295c, #014a7b, #00698c, #0b8793);
   background-size: cover;
   background-position: center;
   padding: 200px 0;
@@ -77,7 +78,6 @@
 .btn-outline-custom1:hover {
   background-color: #ffffff;
   color: #000000;
-  font-weight: bold;
 }
 
 .btn-outline-custom2 {
@@ -93,7 +93,6 @@
 .btn-outline-custom2:hover {
   background-color: #ffffff;
   color: #000000;
-  font-weight: bold;
 }
 
 .paragraph-banner {
@@ -158,11 +157,7 @@
   text-align: center;
 }
 
-.avatar-large {
-  width: 70%;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-  border: white 5px solid;
-}
+
 
 #coucou {
   display: flex;

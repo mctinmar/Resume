@@ -8,7 +8,7 @@ padding-bottom: 50px;
 }
 
 .avatar-large {
-  width: 85%;
+  width: 90%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   border: white 5px solid;
   margin-bottom: 15px;
@@ -50,7 +50,7 @@ padding-bottom: 50px;
 }
 
 .about-paragraph {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
   color: rgba(0,0,0,0.6);
 }
@@ -60,6 +60,8 @@ padding-bottom: 50px;
   font-size: 14px;
   color: rgba(0,0,0,0.6);
 }
+
+
 
 .about-right {
   padding-top: 55px;

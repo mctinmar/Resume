@@ -1,4 +1,17 @@
 
+#interest {
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+
+.interest-title {
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  line-height: 2;
+}
+
 #intro {
   background-color: #ffffff;
   padding-top: 10px;
@@ -35,9 +48,29 @@
 
 .cards2 {
   display: inline-flex;
+  margin-top: -10px;
 }
 
 .cards2 h4 {
   font-weight: 500;
   font-size: 14px;
 }
+
+
+
+.card-category {
+    background-size: cover;
+    background-position: center;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
