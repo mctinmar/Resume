@@ -1,15 +1,15 @@
-#topskills{
-  background-image: linear-gradient(to bottom, #ecf1f7, #f2f4f9, #f7f8fb, #fbfbfd, #ffffff);
+#topskills {
   padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 
 .skills-title {
-    font-weight: 800;
-    font-size: 30px;
-    padding-bottom: 10px;
-    line-height: 2;
-
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 2;
 }
 
 .skills-card {
@@ -70,7 +70,7 @@
 
 
 #skills {
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   padding-top: 5px;
 }
 
