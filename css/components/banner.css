@@ -1,7 +1,7 @@
 #banner {
     background: linear-gradient(to left bottom, #360033, #2e295c, #014a7b, #00698c, #0b8793);
     width: 100vw;
-    height: 55vh;
+    height: 45vh;
     background-size: cover !important;
     background-position: center;
     color: #fff;
@@ -60,7 +60,8 @@
   background: linear-gradient(to left bottom, #360033, #2e295c, #014a7b, #00698c, #0b8793);
   background-size: cover;
   background-position: center;
-  padding: 200px 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 

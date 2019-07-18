@@ -1,6 +1,6 @@
 #about-me {
-padding-top: 30px;
-padding-bottom: 60px;
+padding-top: 10px;
+padding-bottom: 70px;
 }
 
 .about-container {
@@ -9,7 +9,7 @@ padding-bottom: 60px;
 }
 
 .avatar-large {
-  width: 90%;
+  width: 95%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   border: white 5px solid;
   margin-bottom: 15px;
@@ -61,6 +61,12 @@ padding-bottom: 60px;
   font-weight: 400;
   font-size: 14px;
   color: rgba(0,0,0,0.6);
+}
+
+.about-paragraph-special {
+  font-weight: 600;
+  font-size: 15px;
+  color: #4bbc8b;
 }
 
 
@@ -116,3 +122,29 @@ padding-bottom: 60px;
     display: inline-block;
     margin-right: 50px;
 }
+
+.btn-outline-custom4 {
+    background-color: #4bbc8b;
+    color: #ffffff;
+    border-color: #4bbc8b;
+    border-radius: 10px;
+    padding: 1px 67px;
+    cursor: pointer;
+}
+
+
+.btn-outline-custom4:hover {
+  background-color: #4bbc8b;
+  color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
