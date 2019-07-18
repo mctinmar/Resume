@@ -1,12 +1,12 @@
 #experiences {
-  background-color: #ecf1f7;
+  background-color: #f4f9ff;
   padding-bottom: 85px;
   padding-top: 40px;
 }
 
 
 .exp-title {
-  font-weight: 300;
+  font-weight: 800;
   font-size: 30px;
   padding-left: 10px;
   padding-bottom: 40px;
@@ -92,7 +92,7 @@
 }
 
 .exp-logo {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 

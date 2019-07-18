@@ -1,15 +1,15 @@
 
 #education {
-  background: #f4f9ff !important;
+  background: #ffffff;
   padding-top: 30px;
   padding-bottom: 80px;
 }
 
 .card-edu {
   background: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 4px;
-  margin: 20px 50px;
+  margin: 15px 20px;
   -webkit-box-shadow: 0px 30px 120px 0px #dde5ee;
   box-shadow: 0px 30px 120px 0px #dde5ee;
   cursor: pointer;
@@ -23,12 +23,11 @@
 
 .card-edu-2 {
   background: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 4px;
-  margin: 20px 50px;
+  margin: 15px 20px;
   -webkit-box-shadow: 0px 30px 120px 0px #dde5ee;
   box-shadow: 0px 30px 120px 0px #dde5ee;
-  padding-bottom: 63px;
   cursor: pointer;
 }
 
@@ -69,7 +68,7 @@
 .edu-title-2 {
   font-weight: 700;
   font-size: 18px;
-  font-style: italic;
+  /*font-style: italic;*/
   padding-top: 15px;
 }
 
