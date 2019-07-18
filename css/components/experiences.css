@@ -6,7 +6,7 @@
 
 
 .exp-title {
-  font-weight: 800;
+  font-weight: 300;
   font-size: 30px;
   padding-left: 10px;
   padding-bottom: 40px;
@@ -14,7 +14,7 @@
 }
 
 .exp-title-2 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   color: #000;
   padding-top: 10px;
@@ -47,7 +47,8 @@
   width: 90%;
   box-sizing: border-box;
   padding-top: 25px;
-  padding-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 20px;
   border: 1px solid rgba(220,224,244,0.4);
   background: #fff;
@@ -91,7 +92,8 @@
 }
 
 .exp-logo {
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .list-inline-1 {
