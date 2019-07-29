@@ -1,6 +1,6 @@
 #topskills {
   background-color: #f4f9ff;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 
@@ -71,8 +71,7 @@
 
 #skills {
   background-color: #f4f9ff;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 #skills-2 {
@@ -142,8 +141,10 @@
 
 
 #softskills {
-  background-image: linear-gradient(to bottom, #ffffff, #fdfdff, #fbfcff, #f8faff, #f4f9ff);
+  /*background-image: linear-gradient(to bottom, #ffffff, #fdfdff, #fbfcff, #f8faff, #f4f9ff);*/
+  background-color: #f4f9ff;
   padding-bottom: 30px;
+  padding-top: 40px;
 }
 
 .soft-skill-paragraph {
