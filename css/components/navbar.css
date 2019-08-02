@@ -23,15 +23,15 @@ nav .logo {
 
 nav .logo img {
   transition: .5S;
-  height: 40px;
-  padding-top: 10px;
+  height: 60px;
+  padding-top: 5px;
 
 }
 
 nav.white .logo img {
   transition: .5S;
-  height: 30px;
-  padding-top: 10px;
+  height: 50px;
+  padding-top: 5px;
 }
 
 nav ul {
@@ -100,13 +100,7 @@ nav ul li a:hover {
 
 }
 
-nav ul li a.active.contact,
-nav ul li a:hover {
-  color: #fff;
-  background: #4abc8b;
-  text-decoration: none;
-  border-radius: 10px;
-}
+
 
 nav.white ul li a.active,
 nav.white ul li a:hover {
@@ -115,15 +109,6 @@ nav.white ul li a:hover {
   opacity: 0.8;
   text-decoration: none;
   border-radius: 5px;
-}
-
-nav.white ul li a.active.contact,
-nav.white ul li a:hover {
-  color: #fff;
-  background: #4abc8b;
-  text-decoration: none;
-  opacity: 1;
-  border-radius: 10px;
 }
 
 .responsive-bar {
@@ -148,7 +133,7 @@ nav.white ul li a:hover {
 
   .responsive-bar .logo img {
      float: left;
-     height: 40px;
+     height: 60px;
   }
 
   .responsive-bar .menu h4 {
