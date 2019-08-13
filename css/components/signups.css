@@ -24,7 +24,7 @@
 
 .clear { display: inline-block; } /* positions button horizontally in line with input */
 
-.button { font-family: 'Roboto', Helvetica,  Arial, sans-serif; font-size: 1em; font-weight: bold; letter-spacing: .03em; color: #FFF3F3; background-color: #000000 ; border: 10.5px solid #000000 ; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Button Styles */
+.button { font-family: 'Roboto', Helvetica,  Arial, sans-serif; font-size: 1em; font-weight: bold; letter-spacing: .03em; color: #FFF3F3; background-color: #000 ; border: 10.5px solid #000 ; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Button Styles */
 
 :-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */
 :-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */
