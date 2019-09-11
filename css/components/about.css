@@ -9,7 +9,7 @@ padding-bottom: 70px;
 }
 
 .avatar-large {
-  width: 94%;
+  width: 100%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   border: white 5px solid;
   margin-bottom: 15px;
@@ -128,7 +128,7 @@ padding-bottom: 70px;
     color: #ffffff;
     border-color: #4bbc8b;
     border-radius: 5px;
-    padding: 5px 60px;
+    padding: 1px 100px;
     cursor: pointer;
 }
 
