@@ -130,3 +130,72 @@ ul#imageGallery {
 a:hover {
   color: #fff;
 }
+
+.date-custom {
+  font-size:15px;
+  font-weight:300;
+}
+
+.category-custom {
+  float: right;
+  display:inline;
+  display: inline-block;
+  font-size:14px;
+  font-weight:400;
+  background-color:#dcebf0;
+}
+
+.category-custom-1 {
+  float: right;
+  display:inline;
+  display: inline-block;
+  font-size:14px;
+  font-weight:400;
+  background-color:#fbe4e4;
+}
+
+.category-custom-2 {
+  float: right;
+  display:inline;
+  display: inline-block;
+  font-size:14px;
+  font-weight:400;
+  background-color:#ddedea;
+}
+
+.category-custom-3 {
+  float: right;
+  display:inline;
+  display: inline-block;
+  font-size:14px;
+  font-weight:400;
+  background-color:#fbf3db;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .category-custom {
+        float: none;    }
+}
+
+@media only screen and (max-width: 767px) {
+    .category-custom-1 {
+        float: none;    }
+}
+
+@media only screen and (max-width: 767px) {
+    .category-custom-2 {
+        float: none;    }
+}
+
+@media only screen and (max-width: 767px) {
+    .category-custom-3 {
+        float: none;    }
+}
+
+@media only screen and (max-width: 767px) {
+    .date-custom {
+        text-align: center;
+        display: block;    }
+}
+
