@@ -46,9 +46,9 @@
   align-items: center;
   width: 90%;
   box-sizing: border-box;
-  padding-top: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 15px;
+  padding-right: 15px;
+
   margin-bottom: 20px;
   border: 1px solid rgba(220,224,244,0.4);
   background: #fff;
@@ -99,7 +99,7 @@
 .list-inline-1 {
     padding-left: 0;
     list-style: none;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #more {
@@ -198,4 +198,15 @@ a:hover {
         text-align: center;
         display: block;    }
 }
+
+
+@media only screen and (max-width: 767px) {
+    .list-inline-item {
+      text-align: center;
+        display: block;    }
+}
+
+
+
+
 
