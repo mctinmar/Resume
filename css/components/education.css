@@ -39,6 +39,7 @@
 .edu-paragraph {
   color: rgba(0,0,0,0.6);
   font-size: 15px;
+  text-align: justify;
 }
 
 .logo-edu  {

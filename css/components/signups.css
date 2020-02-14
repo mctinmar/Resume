@@ -11,9 +11,16 @@
   font-weight: 700;
   font-size: 20px;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
+.signups-paragraph {
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
 
 
 #mc_embed_signup { border: none; text-align: center; width: 100%; } /* Signup form container */
